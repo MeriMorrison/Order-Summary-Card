@@ -1,0 +1,110 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Red Hat Display";
+  background-color: #e0e8ff;
+  background-image: url(/images/pattern-background-mobile.svg);
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  height: 100vh;
+  text-align: center; 
+}
+.conteiner {
+  background-color: #ffffff;
+  height: 567px;
+  width: 327px;
+  border-radius: 20px;
+}
+.hero {
+  height: 160px;
+  width: 327px;
+  border-radius: 20px 20px 0 0;
+}
+h1 {
+  font-weight: 900;
+  font-size: 22px;
+  color: #1f2e55;
+  padding: 32px 32px 16px 32px;
+}
+.one p {
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 25px;
+  color: #717fa6;
+  
+}
+.two {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+a {
+  color: blue;
+}
+.two-one {
+  flex-direction: column;
+  margin:0 -50px 0 -100px;
+
+}
+button {
+  font-family: "Red Hat Display";
+  background-color: #382ae1;
+  margin: 24px;
+  padding: 15px 65px;
+  border-radius: 11px;
+  color: white;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+}
+.two-two {
+  color: #717fa6;
+}
+.three-two {
+  color: #717fa6;
+}
+a:hover {
+  color: #766cf1;
+  text-decoration: none;
+}
+button:hover {
+  background-color: #766cf1;
+}
+.three-two:hover {
+  color: black;
+}
+@media only screen and (min-width:375px) {
+  body {
+    background-image: url(images/pattern-background-mobile.svg);
+    background-size:100% 50%  ;
+    
+  }
+  .conteiner {
+    height: 697px;
+    width: 450px;
+    border-radius: 20px;
+  }
+  .hero {
+    height: 220px;
+    width: 450px;
+  }
+  .two {
+    background-color: white;
+    border-radius: 11px;
+    padding: 24px 42px;
+  }
+  button {
+    height: 50px;
+    width: 354px;
+  }
+   .three-two{
+    padding: 24px;
+   }
+  .one p{
+    padding: 17px;
+  }
+  .two-one{
+    margin:0 -50px 0 -170px;
+  }
+}
