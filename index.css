@@ -1,4 +1,4 @@
-body {
+ebody {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -74,7 +74,7 @@ button:hover {
 .three-two:hover {
   color: black;
 }
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 375px) {
   body {
     background-image: url(images/pattern-background-desktop.svg);
     background-size:100% 50%  ;
