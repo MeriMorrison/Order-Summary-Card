@@ -74,7 +74,7 @@ button:hover {
 .three-two:hover {
   color: black;
 }
-@media only screen and (min-width:375px) {
+@media only screen and (min-width:400px) {
   body {
     background-image: url(images/pattern-background-mobile.svg);
     background-size:100% 50%  ;
